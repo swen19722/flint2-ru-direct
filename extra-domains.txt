@@ -1,0 +1,4 @@
+# Personal domain exceptions for the direct Russian WAN (not via VPN)
+# One domain per line. A root domain also covers its subdomains.
+mosoblgaz.ru
+mosenergosbyt.ru

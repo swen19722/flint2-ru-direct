@@ -1,0 +1,42 @@
+name: Update Russian direct domains
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'extra-domains.txt'
+      - 'scripts/build_list.py'
+      - '.github/workflows/update-domains.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: flint2-domain-list
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Merge validated sources
+        run: python3 scripts/build_list.py
+      - name: Publish only when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add ru-direct-extended.domains.txt
+          if git diff --cached --quiet; then
+            echo 'List unchanged'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh Russian direct domain exclusions'
+          git push origin HEAD:main
