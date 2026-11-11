@@ -2,3 +2,4 @@
 # One domain per line. A root domain also covers its subdomains.
 mosoblgaz.ru
 mosenergosbyt.ru
+lkk.mosoblgaz.ru
