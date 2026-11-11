@@ -1,3 +1,4 @@
+fgis.gost.ru
 lkk.mosobleirc.ru
 0rub.beeline.ru
 1core-report-renderer-prod.storage.yandexcloud.net
