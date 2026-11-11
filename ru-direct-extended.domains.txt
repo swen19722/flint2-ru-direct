@@ -886,6 +886,7 @@ lk.ug.mts.ru
 lk.vseinstrumenti.ru
 lkfl.nalog.ru
 lkip.nalog.ru
+lkk.mosoblgaz.ru
 lkmgts.mts.ru
 lknpd.nalog.ru
 lkpc.cian.ru
