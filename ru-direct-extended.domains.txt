@@ -1,5 +1,3 @@
-lk.qwerty.ru
-qwerty.ru
 0rub.beeline.ru
 1core-report-renderer-prod.storage.yandexcloud.net
 20.img.avito.st
@@ -456,6 +454,7 @@ cms-res.online.sberbank.ru
 cms-res.psionline.sberbank.ru
 cms.developers.mts.ru
 cms.hh.ru
+cnt.ru
 code-push-api.samokat.ru
 combo-cart.tutu.ru
 combo-orchestrator.tutu.ru
@@ -630,6 +629,7 @@ forest.t2.ru
 forms-ext-api.yandex.ru
 forms.ozon.ru
 forms.yandex.ru
+forum.qwerty.ru
 freecom-app.mts.ru
 freeroam.api.2gis.com
 friends-trap.2gis.ru
@@ -877,6 +877,7 @@ live.vkvideo.ru
 lk-b2b.mts.ru
 lk-subscribe.mts.ru
 lk.cdek.ru
+lk.cnt.ru
 lk.gosuslugi.ru
 lk.megafon.ru
 lk.mts.ru
@@ -1696,6 +1697,7 @@ www.cbr.ru
 www.cdek.ru
 www.centrinvest.ru
 www.cian.ru
+www.cnt.ru
 www.detmir.ru
 www.dns-shop.ru
 www.domrfbank.ru
@@ -1742,6 +1744,7 @@ www.pochtabank.ru
 www.premier.one
 www.privetmir.ru
 www.psbank.ru
+www.qwerty.ru
 www.raiffeisen.ru
 www.rncb.ru
 www.rshb.ru
