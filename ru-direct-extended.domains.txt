@@ -1,4 +1,4 @@
-www.qwerty.ru
+qwerty.ru
 0rub.beeline.ru
 1core-report-renderer-prod.storage.yandexcloud.net
 20.img.avito.st
