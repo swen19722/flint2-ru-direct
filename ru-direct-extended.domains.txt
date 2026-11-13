@@ -1816,6 +1816,7 @@ yandexcloud-api.t2.ru
 yaroslavl.ru
 yastat.net
 yastatic.net
+yk-parus-lobnya.ru
 ymetrica1.com
 ynison.music.yandex.net
 yookassa.ru
