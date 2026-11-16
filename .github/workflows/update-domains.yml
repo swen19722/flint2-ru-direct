@@ -9,6 +9,7 @@ on:
     paths:
       - 'extra-domains.txt'
       - 'scripts/build_list.py'
+      - 'scripts/build_routing_a.py'
       - '.github/workflows/update-domains.yml'
 
 permissions:
@@ -27,11 +28,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Merge validated sources
         run: python3 scripts/build_list.py
+      - name: Generate v2rayA RoutingA policy
+        run: python3 scripts/build_routing_a.py
       - name: Publish only when changed
         shell: bash
         run: |
           set -euo pipefail
-          git add ru-direct-extended.domains.txt
+          git add ru-direct-extended.domains.txt ru-direct-v2raya.rules.txt
           if git diff --cached --quiet; then
             echo 'List unchanged'
             exit 0
