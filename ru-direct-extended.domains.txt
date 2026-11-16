@@ -1098,6 +1098,7 @@ nsk.ru
 nspk.ru
 nuc-cdp.digital.gov.ru
 nuc-cdp.voskhod.ru
+nuum.ru
 o.5ka.ru
 o.ivi.ru
 o2.mail.ru
@@ -1121,6 +1122,7 @@ okkopretv.ru
 omicron.rustore.ru
 omsk.ru
 onelya.ru
+oneme.ru
 online-chat.mts.ru
 online.akbars.ru
 online.alfabank.ru
@@ -1497,6 +1499,7 @@ surgut.ru
 survey.cian.site
 svzd.rzd.ru
 t-bank-app.ru
+t-static.ru
 t2.ru
 talos-res.online.sberbank.ru
 tambov.ru
@@ -1812,6 +1815,7 @@ yanao.ru
 yandex.net
 yandex.ru
 yandex.taxi
+yandexbank.ru
 yandexcloud-api.t2.ru
 yaroslavl.ru
 yastat.net
