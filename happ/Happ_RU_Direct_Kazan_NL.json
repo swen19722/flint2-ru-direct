@@ -1,0 +1,22 @@
+{
+  "Name": "RU-DIRECT-KAZAN",
+  "GlobalProxy": true,
+  "RouteOrder": "block-proxy-direct",
+  "DirectSites": [
+    "geosite:category-ru",
+    "domain:ozon.ru",
+    "domain:wildberries.ru"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:ru"
+  ],
+  "ProxySites": [
+    "geosite:openai",
+    "geosite:youtube",
+    "geosite:google",
+    "geosite:telegram",
+    "domain:chatgpt.com",
+    "domain:google.ru"
+  ]
+}
