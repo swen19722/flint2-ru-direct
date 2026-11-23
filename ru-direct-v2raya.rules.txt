@@ -274,7 +274,7 @@ domain(domain: xn--90aivcdt6dxbc.xn--p1ai, domain: xn--b1aew.xn--p1ai, domain: x
 domain(domain: yakutia.ru, domain: yamal.ru, domain: yanao.ru, domain: yandex.net, domain: yandex.ru, domain: yandex.taxi, domain: yandexcloud-api.t2.ru, domain: yaroslavl.ru) -> direct
 domain(domain: yastat.net, domain: yastatic.net, domain: yk-parus-lobnya.ru, domain: ymetrica1.com, domain: ynison.music.yandex.net, domain: yookassa.ru, domain: yoomoney.ru, domain: youla.io) -> direct
 domain(domain: youla.ru, domain: yuzhno-sakhalinsk.ru, domain: z.lmcdn.ru, domain: zabedu.ru, domain: zakaznoe.pochta.ru, domain: zakupki.gov.ru, domain: zdrav10.ru, domain: zen-dl.s3.dzeninfra.ru) -> direct
-domain(domain: zen-music.s3.dzeninfra.ru, domain: zen.yandex.ru, domain: zenit.ru, domain: zhk-vesna-aprelevka-i.cian.ru, domain: azimut.bitrix24.ru) -> direct
+domain(domain: zen-music.s3.dzeninfra.ru, domain: zen.yandex.ru, domain: zenit.ru, domain: zhk-vesna-aprelevka-i.cian.ru, domain: azimut.bitrix24.ru, domain: grabcad.com) -> direct
 
 # Russian destinations from the built-in geodata
 domain(geosite:category-ru) -> direct
