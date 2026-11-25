@@ -4,8 +4,6 @@
 # Rules are evaluated top-to-bottom; specific proxy exceptions MUST stay first.
 default: proxy
 
-# Main PC uses its own VPN; bypass router VLESS
-source(192.168.1.100) -> direct
 
 # LAN / private addresses must not be sent through VLESS
 domain(geosite:private) -> direct
