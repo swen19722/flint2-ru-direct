@@ -10,6 +10,7 @@ on:
       - 'extra-domains.txt'
       - 'scripts/build_list.py'
       - 'scripts/build_routing_a.py'
+      - 'scripts/build_happ.py'
       - '.github/workflows/update-domains.yml'
 
 permissions:
@@ -30,11 +31,13 @@ jobs:
         run: python3 scripts/build_list.py
       - name: Generate v2rayA RoutingA policy
         run: python3 scripts/build_routing_a.py
+      - name: Generate Happ split-routing profile and geosite
+        run: python3 scripts/build_happ.py
       - name: Publish only when changed
         shell: bash
         run: |
           set -euo pipefail
-          git add ru-direct-extended.domains.txt ru-direct-v2raya.rules.txt
+          git add ru-direct-extended.domains.txt ru-direct-v2raya.rules.txt happ/Happ_RU_Direct_Kazan_NL.json happ/Happ_Import_Link.txt happ/geosite.dat
           if git diff --cached --quiet; then
             echo 'List unchanged'
             exit 0
