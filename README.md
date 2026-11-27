@@ -27,3 +27,9 @@ To add another site: edit `extra-domains.txt`, add its root domain on a new line
 - A GitHub Actions scheduled run can be delayed, and inactive public repositories may have scheduled workflows disabled after prolonged inactivity.
 - If the job fails to push, check Settings → Actions → General → Workflow permissions and repository branch protection.
 - Switch the router to this URL only after checking the file in GitHub and testing the site access.
+
+## Happ Tunnel (Windows / Android)
+
+Те же российские исключения в формате Happ: **[импорт профиля](happ/Happ_Import_Link.txt)** · **[инструкция](happ/README.md)** · **[JSON](happ/Happ_RU_Direct_Kazan_NL.json)**.
+
+Happ получает короткую ссылку с отдельной компактной `geosite.dat`; общий список доменов и приоритеты PROXY/DIRECT создаются в том же ежедневном GitHub Actions. На устройствах правила применяются только после ручного импорта/переподключения; без этого активный VPN не меняется.
