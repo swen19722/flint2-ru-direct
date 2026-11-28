@@ -5,7 +5,7 @@
   "DomainStrategy": "IPIfNonMatch",
   "Geositeurl": "https://raw.githubusercontent.com/swen19722/flint2-ru-direct/main/happ/geosite.dat",
   "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
-  "LastUpdated": "1795799051",
+  "LastUpdated": "1795866237",
   "DirectSites": [
     "geosite:flint2-ru-direct",
     "geosite:private",
